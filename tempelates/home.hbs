@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complaint</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            background: url(https://sail.co.in/sites/default/files/inline-images/bhilaihome.jpg);
+        }
+
+        body{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        }
+    </style>
+    <h1>Complaint Form</h1>
+    <form action="/submitcomplaint" method="POST">
+    <label for="complaint">Enter your complaint:</label><br>
+    <input  type="text" name="complaint" rows="4" cols="50" required></input><br>
+    <button type="submit">Submit Complaint</button>
+  </form>
+
+</body>
+</html>
